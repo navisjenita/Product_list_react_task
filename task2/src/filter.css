@@ -1,0 +1,53 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+
+.header{
+    display:flex;
+    gap:5em
+    
+}
+span{
+    margin-top: 2em;
+}
+.filter{
+    margin-top: 1em;
+    margin-left:1em;
+}
+.horizontal-line {
+    height: 1px;
+    background-color: #000;
+  }
+  .main-component{
+    width:100%;
+    /* border:2px solid black; */
+    height:120vh;
+    box-shadow: 1px 1px 10px black;
+
+  }
+  .brand {
+    list-style-type: none;
+    margin: 2em;
+    
+  }
+  
+  .brand li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .brand li input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .brand li label {
+    margin: 0;
+  }
+  .filter-heading{
+    margin-bottom: 1em;
+  }
+  
